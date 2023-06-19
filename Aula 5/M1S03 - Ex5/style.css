@@ -1,0 +1,42 @@
+:root {
+    font-family: sans-serif;
+    color: white;
+}
+
+ * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: black;
+display: flex;
+flex-direction: column;
+
+}
+header{
+
+
+}
+
+main{
+background-color: rgb(13, 13, 25);
+}
+
+footer{
+
+}
+div {
+    
+}
+
+button {
+    background-color: red;
+    color: white;
+}
+
+h1 {
+    color: red;
+}

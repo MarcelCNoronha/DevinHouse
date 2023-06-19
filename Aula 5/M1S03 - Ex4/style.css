@@ -1,0 +1,30 @@
+h1 {
+    color:  #141c73;
+    text-align: center;
+}
+form {
+    display: flex;
+}
+label {
+    background-color: aqua;
+    flex-direction: column;
+}
+
+input {
+    background-color: aquamarine;
+}
+
+select {
+    background-color:#bec4c9;
+}
+
+.formulario{
+    background-color: #d4ebfa ;
+    display: block;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+

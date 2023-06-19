@@ -1,0 +1,35 @@
+:root {
+    font-family: sans-serif;
+}
+
+ * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+    
+header, footer {
+    background-color: #000080;
+    color: white;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+
+}
+
+#origemDestino {
+
+}
+
