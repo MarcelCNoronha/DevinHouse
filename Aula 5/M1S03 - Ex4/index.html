@@ -8,22 +8,23 @@
 </head>
 <body>
     <h1>Formulário de cadastro</h1>
+    <div class="container">
     <fieldset>
         <legend>Preencha os dados</legend>
-        <form action="" class="formulario">
-            <p>
+        <form action="">
+            <div class="linha">
                 <label for="nome">Nome: </label>
                 <input Placeholder="Nome" type="text" id="nome">
-            </p>
-            <p>
+            </div>
+            <div class="linha">
                 <label for="dataNascimento">Data de Nascimento: </label>
                 <input type="date" id="dataNascimento">
-            </p>
-            <p>
+            </div>
+            <div class="linha">
                 <label for="cpf">CPF: </label>
                 <input Placeholder="000.000.000-00" type="text" id="cpf">
-            </p>            
-            <p>
+            </div>            
+            <div class="linha">
                 <label for="cidades">Município: </label>
                 <select id="cidades" name="cidades">
                     <option value="cidade" disabled selected>Selecione</option>
@@ -31,8 +32,9 @@
                     <option value="cidade2">Rio de Janeiro</option>
                     <option value="cidade3">Viçosa</option>
                   </select>
-            </p>
+            </div>
         </form>
-    </fieldset>  
+    </fieldset> 
+</div> 
 </body>
 </html>

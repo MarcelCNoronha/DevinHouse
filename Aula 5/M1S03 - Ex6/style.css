@@ -1,35 +1,146 @@
 :root {
     font-family: sans-serif;
-}
-
- * {
-    margin: 0;
-    border: 0;
-    padding: 0;
     box-sizing: border-box;
-}
-
-#page-container {
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  #page-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    }
-    
-header, footer {
+  }
+  
+  header, footer {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #000080;
     color: white;
-}
-
-html, body {
-    min-height: 100vh;
-}
-
-section {
+    padding: 10px;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  section {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1 1 300px;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 5px;
+  }
 
+  .card-info {
+  display: flex;
+  flex-direction: column;
 }
 
+.card-info-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-info-content .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
+  
 #origemDestino {
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center; 
 }
-
+  
+  #origemDestino input[type="text"],
+  #origemDestino input[type="date"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-origemDestino {
+    width: 10rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  
+    #origemDestino input[type="text"],
+    #origemDestino input[type="date"],
+    #origemDestino button {
+      width: 100%;
+    }
+  }
+  
+  .btn-visualizar {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+  
+  nav {
+    color: white;
+  }
+  
+  nav a {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+  }
