@@ -14,15 +14,17 @@ body {
 background-color: black;
 display: flex;
 flex-direction: column;
-
 }
 header{
-
 
 }
 
 main{
 background-color: rgb(13, 13, 25);
+}
+
+section {
+    height: 25vh;
 }
 
 footer {
@@ -52,4 +54,16 @@ a{
     flex: 1;
     display: flex;
     flex-direction: column;
+}
+
+.row, .menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    width: 200px;
+
 }
