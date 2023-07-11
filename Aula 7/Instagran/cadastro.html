@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulação de DOM</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
 
     <form class="formulario">
@@ -22,18 +23,15 @@
 
         <div class="input-area">
             <input id="campo-email" type="text" placeholder="Email" />
-            <span id="error-email" class="texto-erro"></span>
+            <span id="error-email" class="texto-erro" hidden></span>
         </div>
 
         <div class="input-area">
             <input id="campo-telefone" type="tel" placeholder="Telefone" />
             <span id="error-telefone" class="texto-erro"></span>
         </div>
-        
-        <div class="input-area">
-            <input id="campo-usuario" type="text" placeholder="Nome do usuário" />
-            <span id="error-usuario" class="texto-erro"></span>
-        </div>
+
+        <input type="text" placeholder="Nome do usuário" />
 
         <div class="input-area">
             <input id="campo-senha" type="password" placeholder="Senha" />
@@ -43,6 +41,7 @@
         <button id="login-button" type="button" onclick="fazerCadastro()">Entrar</button>
     </form>
 
-    <script src="/manipulacaoDom/scripts/cadastro.js"></script>
+    <script src="./scripts/cadastro.js"></script>
 </body>
+
 </html>
