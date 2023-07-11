@@ -1,5 +1,5 @@
 .formulario {
-    margin: 0 auto;
+    margin: 40px auto;
     width: 40%;
   
     border-radius: 4px;
@@ -9,6 +9,9 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+  
+    padding: 10px;
+  
   }
   
   .input-area {
@@ -76,12 +79,15 @@
       /* incluir padding e borda na largura total */
       overflow-y: auto;
       /* adicionar barra de rolagem apenas quando necessário */
+
+      position: fixed;
   }
   
   .sidebar ul {
       list-style-type: none;
       padding: 0;
       margin: 0;
+
   }
   
   .sidebar li {
@@ -98,4 +104,34 @@
       flex: 1;
       padding: 20px;
       background-color: #ece8e8;
+      margin-left: 200px;
+  }
+  
+  .galeria-fotos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .grid-item {
+       /* Para 3 colunas, ajuste conforme necessário */
+      margin-bottom: 10px;
+    }
+  
+  .galeria-fotos img {
+     width: 350px;
+      object-fit: cover;
+    
+  }
+
+  /* CSS explorar */
+
+  .container-grid {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .container-grid img {
+    width: 200px;
   }
